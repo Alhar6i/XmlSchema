@@ -10,4 +10,77 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="xsd\common\**" />
+    <EmbeddedResource Remove="xsd\common\**" />
+    <None Remove="xsd\common\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="xsd\maindoc\UBL-ApplicationResponse-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-AttachedDocument-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-AwardedNotification-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-BillOfLading-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-CallForTenders-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-Catalogue-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-CatalogueDeletion-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-CatalogueItemSpecificationUpdate-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-CataloguePricingUpdate-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-CatalogueRequest-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-CertificateOfOrigin-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-ContractAwardNotice-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-ContractNotice-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-CreditNote-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-DebitNote-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-DespatchAdvice-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-DocumentStatus-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-DocumentStatusRequest-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-ExceptionCriteria-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-ExceptionNotification-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-Forecast-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-ForecastRevision-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-ForwardingInstructions-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-FreightInvoice-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-FulfilmentCancellation-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-GoodsItemItinerary-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-GuaranteeCertificate-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-InstructionForReturns-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-InventoryReport-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-ItemInformationRequest-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-Order-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-OrderCancellation-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-OrderChange-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-OrderResponse-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-OrderResponseSimple-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-PackingList-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-PriorInformationNotice-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-ProductActivity-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-Quotation-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-ReceiptAdvice-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-Reminder-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-RemittanceAdvice-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-RequestForQuotation-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-RetailEvent-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-SelfBilledCreditNote-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-SelfBilledInvoice-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-Statement-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-StockAvailabilityReport-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-Tender-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-TendererQualification-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-TendererQualificationResponse-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-TenderReceipt-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-TradeItemLocationProfile-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-TransportationStatus-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-TransportationStatusRequest-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-TransportExecutionPlan-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-TransportExecutionPlanRequest-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-TransportProgressStatus-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-TransportProgressStatusRequest-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-TransportServiceDescription-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-TransportServiceDescriptionRequest-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-UnawardedNotification-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-UtilityStatement-2.1.xsd" />
+    <None Remove="xsd\maindoc\UBL-Waybill-2.1.xsd" />
+  </ItemGroup>
+
 </Project>

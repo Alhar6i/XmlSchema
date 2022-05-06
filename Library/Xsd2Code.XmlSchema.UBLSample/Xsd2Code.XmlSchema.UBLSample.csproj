@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="U8XmlParser" Version="1.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Xsd2Code.XmlSchema.UBL\Xsd2Code.XmlSchema.UBL.csproj" />
   </ItemGroup>
 
